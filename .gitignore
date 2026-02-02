@@ -1,0 +1,48 @@
+# =========================
+# XAMPP / Local Environment
+# =========================
+/xampp/
+/htdocs/
+
+# =========================
+# Database & SQL Dumps
+# =========================
+*.sql
+*.sqlite
+*.db
+
+# =========================
+# Environment & Config
+# =========================
+.env
+.env.local
+config/local.php
+
+# =========================
+# Logs & Cache
+# =========================
+*.log
+logs/
+cache/
+tmp/
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Backup Files
+# =========================
+*.bak
+*.backup
+*.old
+
+# =========================
+# Node / Composer (if any)
+# =========================
+node_modules/
+vendor/
