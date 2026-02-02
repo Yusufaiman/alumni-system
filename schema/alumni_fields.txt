@@ -1,0 +1,1 @@
+alumniID (int(11)), userID (int(11)), graduationYear (int(11)), currentPosition (varchar(100)), currentCompany (varchar(100)), industry (varchar(100))

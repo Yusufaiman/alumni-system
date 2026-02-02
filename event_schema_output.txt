@@ -1,0 +1,31 @@
+--- Table: event ---
+eventID (int(11)) Null:NO Key:PRI Extra:
+title (varchar(100)) Null:NO Key: Extra:
+description (text) Null:NO Key: Extra:
+date (date) Null:NO Key: Extra:
+location (varchar(100)) Null:NO Key: Extra:
+capacity (int(11)) Null:NO Key: Extra:
+createdBy (int(11)) Null:NO Key:MUL Extra:
+status (enum('OPEN','CLOSED','CANCELLED')) Null:NO Key: Extra:
+
+--- Table: eventregistration ---
+registrationID (int(11)) Null:NO Key:PRI Extra:
+eventID (int(11)) Null:NO Key:MUL Extra:
+userID (int(11)) Null:NO Key:MUL Extra:
+role (enum('STUDENT','ALUMNI')) Null:NO Key: Extra:
+registrationDate (date) Null:NO Key: Extra:
+status (enum('CONFIRMED','CANCELLED')) Null:NO Key: Extra:
+
+--- Table: notification ---
+notificationID (int(11)) Null:NO Key:PRI Extra:
+title (varchar(255)) Null:NO Key: Extra:
+message (text) Null:NO Key: Extra:
+link (varchar(255)) Null:YES Key: Extra:
+targetUserID (int(11)) Null:NO Key:MUL Extra:
+category (varchar(50)) Null:YES Key: Extra:
+targetGroup (enum('STUDENT','ALUMNI','ADMIN')) Null:NO Key: Extra:
+sentDate (datetime) Null:NO Key: Extra:
+status (enum('SENT','READ','ARCHIVED')) Null:YES Key: Extra:
+referenceType (enum('JOB','MENTORSHIP','EVENT','SYSTEM')) Null:YES Key: Extra:
+referenceID (int(11)) Null:YES Key: Extra:
+

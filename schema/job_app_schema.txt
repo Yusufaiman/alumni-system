@@ -1,0 +1,1 @@
+applicationID (int(11)), jobID (int(11)), studentID (int(11)), appliedDate (datetime), status (enum('PENDING','ACCEPTED','REJECTED')), 

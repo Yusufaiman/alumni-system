@@ -1,0 +1,13 @@
+jobID (int(11)) Null:NO
+careerOfficerID (int(11)) Null:NO
+title (varchar(100)) Null:NO
+company (varchar(100)) Null:NO
+location (varchar(100)) Null:YES
+description (text) Null:NO
+requirements (text) Null:NO
+jobType (enum('FULL_TIME','PART_TIME','INTERNSHIP','CONTRACT')) Null:YES
+datePosted (date) Null:NO
+closingDate (date) Null:YES
+status (enum('ACTIVE','CLOSED')) Null:NO
+postedByRole (enum('CAREER_SERVICE_OFFICER','ALUMNI')) Null:NO
+postedByID (int(11)) Null:NO

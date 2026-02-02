@@ -1,0 +1,7 @@
+csoID (int(11)) Null:NO
+userID (int(11)) Null:NO
+staffID (varchar(50)) Null:NO
+department (varchar(100)) Null:YES
+position (varchar(100)) Null:YES
+createdDate (date) Null:NO
+status (enum('ACTIVE','INACTIVE')) Null:NO

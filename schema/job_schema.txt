@@ -1,0 +1,13 @@
+jobID | int(11) | NO | PRI |  | auto_increment
+careerOfficerID | int(11) | NO | MUL |  | 
+title | varchar(100) | NO |  |  | 
+company | varchar(100) | NO |  |  | 
+location | varchar(100) | YES |  |  | 
+description | text | NO |  |  | 
+requirements | text | NO |  |  | 
+jobType | enum('FULL_TIME','PART_TIME','INTERNSHIP','CONTRACT') | YES |  |  | 
+datePosted | date | NO |  |  | 
+closingDate | date | YES |  |  | 
+status | enum('ACTIVE','CLOSED') | NO |  |  | 
+postedByRole | enum('CAREER_OFFICER') | NO |  | CAREER_OFFICER | 
+postedByID | int(11) | NO |  |  | 

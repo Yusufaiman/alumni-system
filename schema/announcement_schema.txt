@@ -1,0 +1,7 @@
+announcementID (int(11)) Null:NO
+title (varchar(150)) Null:NO
+content (text) Null:NO
+createdBy (int(11)) Null:NO
+createdRole (enum('CAREER_OFFICER','ADMIN')) Null:NO
+createdDate (date) Null:NO
+status (enum('ACTIVE','ARCHIVED')) Null:YES
