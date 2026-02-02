@@ -1,7 +1,7 @@
-# Alumni Connect System
+# Alumni Engagement System
 
 ## Project Overview
-Alumni Connect System is a web-based platform developed for the Software Engineering Fundamentals course.  
+Alumni Engagement System is a web-based platform developed for the Software Engineering Fundamentals course.  
 The system aims to strengthen engagement between students, alumni, career service officers, and administrators by providing a centralized platform for career development, mentorship, events, and job opportunities.
 
 ---
